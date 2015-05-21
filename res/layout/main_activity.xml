@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/main_drawing_layout" >
+    <com.nachiketn.mindmap.ScalableTextView 
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Hello"
+        android:background="@color/basic_blue" />
+    <com.nachiketn.mindmap.ScalableTextView 
+        android:id="@+id/anotherTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nachiket"
+        android:layout_below="@+id/textView"
+        android:layout_marginTop="20dp"
+        android:background="@color/basic_blue" />
+</RelativeLayout>
